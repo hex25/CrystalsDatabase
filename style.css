@@ -1,0 +1,53 @@
+.category-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #4F487B;
+    font-size: 1.2em;
+}
+.category-button:hover {
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+body {
+    background-color: #CCCCCC;
+}
+.accordion {
+    background-color: #fff;
+    color: #4F487B;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.5em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.panel p {
+    font-size: 1.3em;
+    
+}
+
+.crystal-image {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+    border-radius: 5px;
+}
